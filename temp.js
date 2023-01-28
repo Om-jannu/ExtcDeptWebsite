@@ -8,7 +8,7 @@ nav.innerHTML = `<div class="container-fluid">
           <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link top-nav-text" aria-current="page" href="#">DBIT Home</a>
+                <a class="nav-link top-nav-text" aria-current="page" href="https://dbit.in/">DBIT Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link top-nav-text" href="http://parent.dbit.in/"
@@ -115,10 +115,10 @@ nav.innerHTML = `<div class="container-fluid">
                         </a>
                         <ul class="dropdown-menu sub-menu">
                           <li>
-                            <a class="dropdown-item" href="#">SEIT-C Scheme</a>
+                            <a class="dropdown-item" href="/assets/pdf/SEEXTC_Rev2019_C-Scheme.pdf">SEIT-C Scheme</a>
                           </li>
                           <li>
-                            <a class="dropdown-item" href="#">SEIT-CBCGS</a>
+                            <a class="dropdown-item" href="/assets/pdf/SEEXTC_Rev2019_C-Scheme.pdf">SEIT-CBCGS</a>
                           </li>
                         </ul>
                       </li>
@@ -134,10 +134,10 @@ nav.innerHTML = `<div class="container-fluid">
                         </a>
                         <ul class="dropdown-menu sub-menu">
                           <li>
-                            <a class="dropdown-item" href="#">TEIT-CBCS</a>
+                            <a class="dropdown-item" href="/assets/pdf/TE_EXTC_R2019_C-Scheme_Syllabus.pdf">TEIT-CBCS</a>
                           </li>
                           <li>
-                            <a class="dropdown-item" href="#">TEIT-C Scheme</a>
+                            <a class="dropdown-item" href="/assets/pdf/TE_EXTC_R2019_C-Scheme_Syllabus.pdf">TEIT-C Scheme</a>
                           </li>
                         </ul>
                       </li>
@@ -153,7 +153,7 @@ nav.innerHTML = `<div class="container-fluid">
                         </a>
                         <ul class="dropdown-menu sub-menu">
                           <li>
-                            <a class="dropdown-item" href="#">BEIT-CBCS</a>
+                            <a class="dropdown-item" href="/assets/pdf/BE_Syllabus_rev_for_2019.pdf">BEIT-CBCS</a>
                           </li>
                         </ul>
                       </li>
@@ -211,10 +211,10 @@ nav.innerHTML = `<div class="container-fluid">
                     </a>
                     <ul class="dropdown-menu sub-menu">
                       <li>
-                        <a class="dropdown-item" href="">Minor Grants</a>
+                        <a class="dropdown-item" href="faculty/research/majorgrants.html">Minor Grants</a>
                       </li>
                       <li>
-                      <a class="dropdown-item" href="">Major Grants</a>
+                      <a class="dropdown-item" href="faculty/research/minorgrants.html">Major Grants</a>
                     </li>
                     </ul>
                   </li>
@@ -233,9 +233,9 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="">Time Table</a>
+                    <a class="dropdown-item" href="/assets/pdf/V3_EXTC_ClassTimeTable_AY2022-23_Odd_Semester.pdf">Time Table</a>
                   </li>
-                  <li><a class="dropdown-item" href="students/recognition.html">Recognition</a></li>
+                  <li><a class="dropdown-item" href="/students/recognition.html">Recognition</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -286,7 +286,7 @@ nav.innerHTML = `<div class="container-fluid">
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
-                <li><a class="dropdown-item" href="">Industrial Visit</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/industrial_training.html">Industrial Visit</a></li>
                 <li class="dropend drop-down">
                   <a
                     class="dropdown-item dropdown-toggle"
@@ -299,14 +299,14 @@ nav.innerHTML = `<div class="container-fluid">
                   </a>
                   <ul class="dropdown-menu sub-menu">
                     <li>
-                      <a class="dropdown-item" href="">IEEE</a>
+                      <a class="dropdown-item" href="https://ieee.dbit.in/" target="blank">IEEE</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="">IETE</a>
+                      <a class="dropdown-item" href="https://iete.dbit.in/" target="blank">IETE</a>
                     </li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="#">Project Exhibition</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/project.html">Project Exhibition</a></li>
                
               </ul>
             </li>
@@ -332,13 +332,14 @@ nav.innerHTML = `<div class="container-fluid">
                   <li>
                     <a
                       class="dropdown-item"
-                      href="/placement&internship/placement.html"
+                      href="/placement&internship/placement2.html"
                       >Placement Record</a
                     >
                   </li>
                 </ul>
               </li>
             </ul>
+            ////////////////
             <!-- <ul class="main-navigation">
               <li><a href="#">HOME</a></li>
               <li><a href="#">ABOUT US</a></li>
@@ -351,19 +352,19 @@ nav.innerHTML = `<div class="container-fluid">
                     <ul>
                       <li><a href="#">Second Year</a>
                         <ul>
-                          <li><a href="#">SEIT-C Scheme</a></li>
-                          <li><a href="#">SEIT-CBCGS</a></li>
+                          <li><a href="/assets/pdf/SEEXTC_Rev2019_C-Scheme.pdf">SEIT-C Scheme</a></li>
+                          <li><a href="/assets/pdf/SEEXTC_Rev2019_C-Scheme.pdf">SEIT-CBCGS</a></li>
                         </ul>
                       </li>
                       <li><a href="#">Third Year</a>
                         <ul>
-                          <li><a href="#">TEIT-C Scheme</a></li>
-                          <li><a href="#">TEIT-CBCGS</a></li>
+                          <li><a href="/assets/pdf/TE_EXTC_R2019_C-Scheme_Syllabus.pdf">TEIT-C Scheme</a></li>
+                          <li><a href="/assets/pdf/TE_EXTC_R2019_C-Scheme_Syllabus.pdf">TEIT-CBCGS</a></li>
                         </ul>
                       </li>
                       <li><a href="#">Final Year</a>
                         <ul>
-                          <li><a href="#">SEIT-CBCS</a></li>
+                          <li><a href="/assets/pdf/BE_Syllabus_rev_for_2019.pdf">SEIT-CBCS</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -375,11 +376,11 @@ nav.innerHTML = `<div class="container-fluid">
                   <li><a href="#">TEIT-CBCGS</a></li>
                 </ul>
               </li>
-              <li><a href="#">RECOGNITION</a></li>
+              <li><a href="/students/recognition.html">RECOGNITION</a></li>
               <li><a href="#">STUDENTS</a>
                 <ul>
                   <li><a href="#">Undergraduate Projects</a></li>
-                  <li><a href="#">Recognition</a></li>
+                  <li><a href="">Recognition</a></li>
                 </ul>
               </li>
               <li><a href="#">CO-CURRICULAR ACTIVITIES</a>
