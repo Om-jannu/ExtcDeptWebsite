@@ -2,13 +2,14 @@
 let nav = document.getElementById('navbar');
 
 
-nav.innerHTML = `<div class="container-fluid">
-      <div class="row">
-        <nav class="navbar bgcol_pri navbar-expand-sm nav-hide">
+nav.innerHTML = `
+<div class="container-fluid ">
+      <div class="row d-none d-lg-block d-md-block">
+        <nav class="navbar bgcol_pri navbar-expand-sm nav-hide ">
           <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link top-nav-text" aria-current="page" href="#">DBIT Home</a>
+                <a class="nav-link top-nav-text" aria-current="page" href="https://dbit.in/">DBIT Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link top-nav-text" href="http://parent.dbit.in/"
@@ -37,7 +38,7 @@ nav.innerHTML = `<div class="container-fluid">
         </nav>
       </div>
       <div class="row">
-        <img class="p-0" src="/assets/extc banner.PNG" alt="" srcset="" />
+        <img class="p-0" src="/assets/extc_banner.webp" alt="" srcset="" />
       </div>
     </div>
 
@@ -84,82 +85,15 @@ nav.innerHTML = `<div class="container-fluid">
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  ACADEMICS
+                  ACADEMICS <span class="badge bg-info">New</span>
                 </a>
                 <ul class="dropdown-menu">
                   <li>
                     <a class="dropdown-item" href="/academics/academic-calendar.html">Academic Calender</a>
                   </li>
-                  <li><a class="dropdown-item" href="/academics/exam-calendar.html">Exam Timetable</a></li>
-                  <li><a class="dropdown-item" href="/academics/timetable.html">Timetable</a></li>
-                  <li class="dropend drop-down">
-                    <a
-                      class="dropdown-item dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Syllabus
-                    </a>
-                    <ul class="dropdown-menu sub-menu">
-                      <li class="dropend drop-down">
-                        <a
-                          class="dropdown-item dropdown-toggle"
-                          href="#"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                          Second Year
-                        </a>
-                        <ul class="dropdown-menu sub-menu">
-                          <li>
-                            <a class="dropdown-item" href="#">SEIT-C Scheme</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="#">SEIT-CBCGS</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropend drop-down">
-                        <a
-                          class="dropdown-item dropdown-toggle"
-                          href="#"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                          Third Year
-                        </a>
-                        <ul class="dropdown-menu sub-menu">
-                          <li>
-                            <a class="dropdown-item" href="#">TEIT-CBCS</a>
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="#">TEIT-C Scheme</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropend drop-down">
-                        <a
-                          class="dropdown-item dropdown-toggle"
-                          href="#"
-                          role="button"
-                          data-bs-toggle="dropdown"
-                          aria-expanded="false"
-                        >
-                          Final Year
-                        </a>
-                        <ul class="dropdown-menu sub-menu">
-                          <li>
-                            <a class="dropdown-item" href="#">BEIT-CBCS</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
+                  <li><a class="dropdown-item" href="https://www.dbit.in/timetable.html">Exam Timetable</a></li>
+                  <li><a class="dropdown-item" href="https://www.dbit.in/timetable.html">Timetable</a></li>
+                  <li><a class="dropdown-item" href="/academics/syllabus.html">Syllabus</a></li>
                     <a class="dropdown-item" href="#"
                       >Academic Advisory Board</a
                     >
@@ -211,10 +145,10 @@ nav.innerHTML = `<div class="container-fluid">
                     </a>
                     <ul class="dropdown-menu sub-menu">
                       <li>
-                        <a class="dropdown-item" href="">Minor Grants</a>
+                        <a class="dropdown-item" href="/faculty/research/majorgrants.html">Minor Grants</a>
                       </li>
                       <li>
-                      <a class="dropdown-item" href="">Major Grants</a>
+                      <a class="dropdown-item" href="/faculty/research/minorgrants.html">Major Grants</a>
                     </li>
                     </ul>
                   </li>
@@ -233,9 +167,10 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="">Time Table</a>
+                    <a class="dropdown-item" href="/assets/pdf/V3_EXTC_ClassTimeTable_AY2022-23_Odd_Semester.pdf">Time Table</a>
                   </li>
-                  <li><a class="dropdown-item" href="students/recognition.html">Recognition</a></li>
+                  <li><a class="dropdown-item" href="/students/recognition2.html">Recognition</a></li>
+                  <li><a class="dropdown-item" href="/student/sports.html">Sports</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown text-center">
@@ -251,7 +186,7 @@ nav.innerHTML = `<div class="container-fluid">
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="students/undergraduate-project.html">Undergraduate Projects</a>
+                    <a class="dropdown-item" href="/students/undergraduateproject.html">Undergraduate Projects</a>
                   </li>
                   <li class="dropend drop-down">
                     <a
@@ -286,7 +221,7 @@ nav.innerHTML = `<div class="container-fluid">
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/cocurricular/newsletter.html">Newsletter</a></li>
-                <li><a class="dropdown-item" href="">Industrial Visit</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/industrial_training.html">Industrial Visit</a></li>
                 <li class="dropend drop-down">
                   <a
                     class="dropdown-item dropdown-toggle"
@@ -299,14 +234,14 @@ nav.innerHTML = `<div class="container-fluid">
                   </a>
                   <ul class="dropdown-menu sub-menu">
                     <li>
-                      <a class="dropdown-item" href="">IEEE</a>
+                      <a class="dropdown-item" href="https://ieee.dbit.in/" target="blank">IEEE</a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="">IETE</a>
+                      <a class="dropdown-item" href="https://iete.dbit.in/" target="blank">IETE</a>
                     </li>
                   </ul>
                 </li>
-                <li><a class="dropdown-item" href="#">Project Exhibition</a></li>
+                <li><a class="dropdown-item" href="/cocurricular/project.html">Project Exhibition</a></li>
                
               </ul>
             </li>
@@ -319,7 +254,7 @@ nav.innerHTML = `<div class="container-fluid">
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  PLACEMENT & INTERNSHIP
+                  PLACEMENT & INTERNSHIP <span class="badge bg-info">New</span>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
@@ -332,83 +267,17 @@ nav.innerHTML = `<div class="container-fluid">
                   <li>
                     <a
                       class="dropdown-item"
-                      href="/placement&internship/placement.html"
-                      >Placement Record</a
+                      href="/placement&internship/placement2.html"
+                      >Placement Record <span class="badge bg-info">New</span></h1></a
                     >
                   </li>
                 </ul>
               </li>
             </ul>
-            <!-- <ul class="main-navigation">
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">ABOUT US</a></li>
-              <li><a href="#">ACADEMICS</a>
-                <ul>
-                  <li><a href="#">Academic Calender</a></li>
-                  <li><a href="#">Exam Timetable</a></li>
-                  <li><a href="#">Timetable</a></li>
-                  <li><a href="#">Syllabus</a>
-                    <ul>
-                      <li><a href="#">Second Year</a>
-                        <ul>
-                          <li><a href="#">SEIT-C Scheme</a></li>
-                          <li><a href="#">SEIT-CBCGS</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Third Year</a>
-                        <ul>
-                          <li><a href="#">TEIT-C Scheme</a></li>
-                          <li><a href="#">TEIT-CBCGS</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Final Year</a>
-                        <ul>
-                          <li><a href="#">SEIT-CBCS</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Academic Advisory Board</a></li>
-                  <li><a href="#">Faculty Profile</a></li>
-                  <ul>
-                  <li><a href="#">TEIT-C Scheme</a></li>
-                  <li><a href="#">TEIT-CBCGS</a></li>
-                </ul>
-              </li>
-              <li><a href="#">RECOGNITION</a></li>
-              <li><a href="#">STUDENTS</a>
-                <ul>
-                  <li><a href="#">Undergraduate Projects</a></li>
-                  <li><a href="#">Recognition</a></li>
-                </ul>
-              </li>
-              <li><a href="#">CO-CURRICULAR ACTIVITIES</a>
-                <ul>
-                  <li><a href="./cocurricular/newsletter/newsletter.html">Newsletter</a></li>
-                  <li><a href="#">Events</a>
-                    <ul>
-                      <li><a href="#">Game Of Codes</a></li>
-                      <li><a href="#">Mumbai Hackathon</a></li>
-                      <li><a href="#">Innovex</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">CSI</a></li>
-                  <li><a href="#">Student Club</a>
-                    <ul>
-                      <li><a href="#">AI Club</a></li>
-                      <li><a href="#">Web Development</a></li>
-                    </ul>
-                  </li>        
-                </ul>
-              </li>
-              <li><a href="#">PLACEMENT & INTERNSHIP</a>
-                <ul>
-                  <li><a href="#">Internship Record</a></li>
-                  <li><a href="#">Placement Record</a></li>
-                </ul>
-              </li>
-            </ul> -->
           </div>
         </div>
       </nav>
+     
+
     </header>`
+   
